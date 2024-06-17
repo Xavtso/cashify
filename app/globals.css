@@ -6,18 +6,22 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --text-color: #cedbe5;
   --body-color: #020912;
-  --primary-highlight-color: #6aa7f9;
+  --highlight-blue: #6aa7f9;
+  --highlight-btn: #7bb3fc;
   --blue-lighter: #385471;
   --blue-neutral: #1b2940;
   --red: #ec3010;
   --orange: #f79726;
   --green: #19b813;
-  --purple:#5221A6;
-  --brown:#6D1C19;
-  --yellow:#847B0A;
-  --base-color:#051528;
-  --gray:#373737;
+  --purple: #5221a6;
+  --brown: #6d1c19;
+  --yellow: #847b0a;
+  --base-color: #051528;
+  --gray: #373737;
+
+  --base-shadow: 0px 0px 2px 1px var(--blue-lighter);
 }
 
 body {

@@ -8,7 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+      boxShadow: {
+        hero: "0.5px 2px 2px 0.5px var(--blue-lighter)",
+        base: "0px 0px 1px 1px var(--blue-lighter)",
+      },
     },
   },
   plugins: [],
